@@ -11,7 +11,7 @@ function App() {
           <p>
             Name: Thanawit tapabud <br />
             Role: Software Developer (Intern) <br />
-            Graduated: Computer Engineering
+            Education: Computer Engineering
           </p>
         </div>
         <div className="button-wrapper">
