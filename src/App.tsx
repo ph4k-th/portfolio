@@ -1,35 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <div className="snow"></div>
+      <div className="container">
+        <div className="wrapper">
+          <div className="banner-image"></div>
+          <h1>PH4K-TH</h1>
+          <p>
+            Name: Thanawit tapabud <br />
+            Role: Software Developer (Intern) <br />
+            Graduated: Computer Engineering
+          </p>
+        </div>
+        <div className="button-wrapper">
+          <button className="cybr-btn">
+            INSTAGRAM<span aria-hidden>_</span>
+            <span aria-hidden className="cybr-btn__glitch">
+              INSTAGRAM_
+            </span>
+            <span aria-hidden className="cybr-btn__tag">
+              R25
+            </span>
+          </button>
+          <button className="cybr-btn">
+            FACEBOOK<span aria-hidden>_</span>
+            <span aria-hidden className="cybr-btn__glitch">
+              FACEBOOK_
+            </span>
+            <span aria-hidden className="cybr-btn__tag">
+              R25
+            </span>
+          </button>
+          <button className="cybr-btn">
+            LINKEDIN<span aria-hidden>_</span>
+            <span aria-hidden className="cybr-btn__glitch">
+              LINKEDLIN_
+            </span>
+            <span aria-hidden className="cybr-btn__tag">
+              R25
+            </span>
+          </button>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
