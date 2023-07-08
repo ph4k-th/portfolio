@@ -655,12 +655,12 @@ button {
   }
 }
 
-.cybr-btn:nth-of-type(2) {
+.cybr-btn:nth-of-type(2) a {
   --primary-hue: 221;
   --shadow-primary-hue: 214;
 }
 
-.cybr-btn:nth-of-type(3) {
+.cybr-btn:nth-of-type(3) a {
   --primary-hue: 201;
   --shadow-primary-hue: 209;
 }

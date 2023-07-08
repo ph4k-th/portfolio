@@ -15,33 +15,42 @@ function App() {
           </p>
         </div>
         <div className="button-wrapper">
-          <button className="cybr-btn">
-            INSTAGRAM<span aria-hidden>_</span>
-            <span aria-hidden className="cybr-btn__glitch">
-              INSTAGRAM_
-            </span>
-            <span aria-hidden className="cybr-btn__tag">
-              R25
-            </span>
-          </button>
-          <button className="cybr-btn">
-            FACEBOOK<span aria-hidden>_</span>
-            <span aria-hidden className="cybr-btn__glitch">
-              FACEBOOK_
-            </span>
-            <span aria-hidden className="cybr-btn__tag">
-              R25
-            </span>
-          </button>
-          <button className="cybr-btn">
-            LINKEDIN<span aria-hidden>_</span>
-            <span aria-hidden className="cybr-btn__glitch">
-              LINKEDLIN_
-            </span>
-            <span aria-hidden className="cybr-btn__tag">
-              R25
-            </span>
-          </button>
+          <a href="https://www.instagram.com/pn_double.t/" target="_blank">
+            <button className="cybr-btn">
+              INSTAGRAM<span aria-hidden>_</span>
+              <span aria-hidden className="cybr-btn__glitch">
+                INSTAGRAM_
+              </span>
+              <span aria-hidden className="cybr-btn__tag">
+                R25
+              </span>
+            </button>
+          </a>
+          <a href="https://www.facebook.com/thanawit.tapabud" target="_blank">
+            <button className="cybr-btn">
+              FACEBOOK<span aria-hidden>_</span>
+              <span aria-hidden className="cybr-btn__glitch">
+                FACEBOOK_
+              </span>
+              <span aria-hidden className="cybr-btn__tag">
+                R25
+              </span>
+            </button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/thanawit-tapabud-42503b251/"
+            target="_blank"
+          >
+            <button className="cybr-btn">
+              LINKEDIN<span aria-hidden>_</span>
+              <span aria-hidden className="cybr-btn__glitch">
+                LINKEDLIN_
+              </span>
+              <span aria-hidden className="cybr-btn__tag">
+                R25
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
