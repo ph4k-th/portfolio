@@ -15,7 +15,11 @@ function App() {
           </p>
         </div>
         <div className="button-wrapper">
-          <a href="https://www.instagram.com/pn_double.t/" target="_blank">
+          <a
+            href="https://www.instagram.com/pn_double.t/"
+            target="_blank"
+            className="button-link"
+          >
             <button className="cybr-btn">
               INSTAGRAM<span aria-hidden>_</span>
               <span aria-hidden className="cybr-btn__glitch">
@@ -26,7 +30,11 @@ function App() {
               </span>
             </button>
           </a>
-          <a href="https://www.facebook.com/thanawit.tapabud" target="_blank">
+          <a
+            href="https://www.facebook.com/thanawit.tapabud"
+            target="_blank"
+            className="button-link"
+          >
             <button className="cybr-btn">
               FACEBOOK<span aria-hidden>_</span>
               <span aria-hidden className="cybr-btn__glitch">
@@ -40,6 +48,7 @@ function App() {
           <a
             href="https://www.linkedin.com/in/thanawit-tapabud-42503b251/"
             target="_blank"
+            className="button-link"
           >
             <button className="cybr-btn">
               LINKEDIN<span aria-hidden>_</span>
